@@ -5,3 +5,5 @@
 nombre=$(echo $1 | sed 's/\./\//g')
 
 mkdir -p ./{src/java/$nombre,test/java/$nombre}
+
+tree ./
